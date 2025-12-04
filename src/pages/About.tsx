@@ -371,7 +371,7 @@ const About = () => {
       <section className="py-16 relative overflow-hidden">
         <div className="absolute left-0 top-0 bottom-0 w-1/4 bg-primary"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Our Guards</h2>
+          <h2 className="text-4xl font-bold text-primary mb-12 text-center">Our Guards</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             {guards.map((guard, index) => (
               <motion.div 
